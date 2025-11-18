@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Spice Heritage</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/testimonials.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h2><i class="fas fa-utensils"></i> Spice Heritage</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="../about/index.html">About</a></li>
+                <li><a href="../services/index.html">Services</a></li>
+                <li><a href="../menu/index.html">Menu</a></li>
+                <li><a href="../gallery/index.html">Gallery</a></li>
+                <li><a href="../testimonials/index.html" class="active">Testimonials</a></li>
+                <li><a href="../blog/index.html">Blog</a></li>
+                <li><a href="../careers/index.html">Careers</a></li>
+                <li><a href="../reviews/index.html">Reviews</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonials-carousel">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Exceptional service and authentic flavors. Spice Heritage made our wedding unforgettable! The team was professional, the food was amazing, and every guest complimented the catering. Highly recommended!"</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/women/25.jpg" alt="Client">
+                            <div>
+                                <h4>Priya Sharma</h4>
+                                <span>Wedding Client - Mumbai</span>
+                                <small>500 guests wedding</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Professional team, timely delivery, and delicious food. Perfect for corporate events. We've been using their services for 3 years now and they never disappoint."</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/men/40.jpg" alt="Client">
+                            <div>
+                                <h4>Rajesh Kumar</h4>
+                                <span>Corporate Client - Delhi</span>
+                                <small>TechCorp Solutions</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Amazing experience! The food quality is outstanding and the presentation is beautiful. They catered our daughter's birthday party and it was perfect."</p>
+                        <div class="client-info">
+                            <img src="https://randomuser.me/api/portraits/women/35.jpg" alt="Client">
+                            <div>
+                                <h4>Anita Desai</h4>
+                                <span>Private Party - Bangalore</span>
+                                <small>Birthday celebration</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="video-testimonials">
+                <h3>Video Testimonials</h3>
+                <div class="video-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://images.pexels.com/photos/1024993/pexels-photo-1024993.jpeg?w=300&h=200&fit=crop" alt="Video">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h4>Wedding Success Story</h4>
+                        <p>Couple shares their amazing wedding catering experience</p>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?w=300&h=200&fit=crop" alt="Video">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h4>Corporate Partnership</h4>
+                        <p>CEO testimonial about our corporate catering services</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <style>
+        .rating { margin-bottom: 1rem; }
+        .rating i { color: #ffd700; }
+        .client-info small { display: block; color: #999; font-size: 0.8rem; }
+        .video-testimonials { margin-top: 4rem; text-align: center; }
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .video-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .video-thumbnail { position: relative; cursor: pointer; }
+        .video-thumbnail img { width: 100%; height: 200px; object-fit: cover; }
+        .play-button { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 60px; height: 60px; background: rgba(230, 126, 34, 0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; }
+        .video-card h4 { padding: 1rem 1rem 0.5rem; margin: 0; }
+        .video-card p { padding: 0 1rem 1rem; margin: 0; color: #666; }
+    </style>
+    <script src="../../js/main.js"></script>
+    <script src="../../js/testimonials.js"></script>
+</body>
+</html>
